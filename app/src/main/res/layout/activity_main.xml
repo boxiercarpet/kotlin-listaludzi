@@ -7,4 +7,84 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:orientation="vertical"
+        app:flow_horizontalAlign="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="HardcodedText, LabelFor, Autofill">
+
+        <EditText
+            android:id="@+id/editTextName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Imię"
+            android:inputType="text"
+            android:maxWidth="488dp"
+            android:minHeight="48dp" />
+
+        <EditText
+            android:id="@+id/editTextSurname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Nazwisko"
+            android:inputType="text"
+            android:maxWidth="488dp"
+            android:minHeight="48dp" />
+
+        <EditText
+            android:id="@+id/editTextAge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Wiek"
+            android:inputType="numberDecimal"
+            android:maxWidth="488dp"
+            android:minHeight="48dp" />
+
+        <EditText
+            android:id="@+id/editTextHeight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Wzrost (cm)"
+            android:inputType="number"
+            android:maxWidth="488dp"
+            android:minHeight="48dp" />
+
+        <EditText
+            android:id="@+id/editTextWeight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Waga (kg)"
+            android:inputType="number"
+            android:maxWidth="488dp"
+            android:minHeight="48dp" />
+
+        <Button
+            android:id="@+id/buttonSave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="zapisz" />
+
+        <Button
+            android:id="@+id/buttonScreen2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ekran 2" />
+
+    </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
